@@ -1,9 +1,9 @@
 
-# Reto tecnico de Banbif - Devops Senior
+# Reto técnico de Banbif - Devops Senior
 
 Este reto técnico fue desarrollado para el puesto de Devops Senior usando tenologias como Github Actions, Terraform y AWS ECS.
 
-## Objetivo del proyecto
+## Objetivo del Proyecto
 
 Desplegar una aplicación web Java en AWS ECS haciendo uso de  Terraform y Github Actions.
 
@@ -16,7 +16,7 @@ Desplegar una aplicación web Java en AWS ECS haciendo uso de  Terraform y Githu
 - Terraform
 - AWS ECS
 
-## Detalle del Reto técnico
+## Detalle del Reto Técnico
 
     1. Crear una aplicación sencilla (HolaMundo o API Crud) con Java.
     2. Compile la aplicación creada con ayuda de Maven, el proceso debe estar dockerizado.
@@ -71,7 +71,7 @@ public class HelloworldApplication {
 - **Punto de Entrada de la Aplicación:** La aplicación tiene un método `main` que utiliza `SpringApplication.run` para iniciar la aplicación Spring Boot.
 - **Endpoint Principal:** Se define un endpoint en la ruta raíz (`/`) que, cuando es accedido, devuelve el mensaje "Hola Banbif...!".
 
-### Contenerización de la aplicación
+### Contenerización de la Aplicación
 
 Este Dockerfile define el proceso de construcción y ejecución de la aplicación Spring Boot en un contenedor Docker. Se compone de dos etapas:
 
